@@ -21,5 +21,21 @@ background. Planning to spend the early part of this phase researching options.
 **Next up:**
 Finalize tech stack, set up the dev environment, start scoping core features.
 
+## WK5 — 5x5x5 Planning
 
+**Date: 09/28/2026**
+
+### Next 5 minutes
+- Journal entry noting today's session (env setup done, first push complete)
+- Check roadmap to confirm what's next: scoping core features
+
+### Next 5 days
+- Decide what fields/data a single "comp" needs to track (units, positioning, playstyle notes, etc.)
+- Sketch a rough plan for the first real feature: entering and saving a comp
+- Set up a basic database structure (SQLite) to hold that data
+
+### Next 5 weeks
+- Build core functionality: entering, saving, and viewing comps (WK7–8 roadmap phase)
+- Get the app to a testable state and share with a few TFT players for early feedback (WK9)
+- Keep the journal and README updated as milestones hit, so progress stays visible for WK6 check-in and beyond
 
