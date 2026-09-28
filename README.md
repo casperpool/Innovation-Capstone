@@ -1,7 +1,5 @@
 # Innovation-Capstone
 
-This is the readme for my Innovation Capstone Project
-
 ## Why This Project
 TFT players currently track personal comps and notes in scattered spreadsheets or notes 
 apps, which is clunky for quick reference mid-game or sharing with others. Existing tools 
