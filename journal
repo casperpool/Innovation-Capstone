@@ -1,0 +1,25 @@
+# Design Journal
+
+## WK5 — Project Kickoff
+
+**Date: 09/28/2026**
+
+**Where things stand:**
+Just getting started. Repo is set up, README drafted with the project's core idea: 
+a customizable comp-tracking app for TFT players, replacing the scattered spreadsheets 
+most players (myself included) currently use.
+
+**Thinking so far:**
+Still deciding on the tech stack and exact feature set for the first prototype. Leaning 
+toward keeping the MVP scope tight (basic comp entry and note-taking) before adding 
+anything more ambitious.
+
+**Biggest open question:**
+What tech stack to use, since app development is outside my usual cybersecurity/sysadmin 
+background. Planning to spend the early part of this phase researching options.
+
+**Next up:**
+Finalize tech stack, set up the dev environment, start scoping core features.
+
+
+
