@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TFT Comp Tracker</title>
+</head>
+<body>
+    <h1>TFT Comp Tracker</h1>
+
+    <h2>Add a comp</h2>
+    <form method="POST">
+        <p><input type="text" name="name" placeholder="Comp name" required></p>
+        <p><input type="text" name="units" placeholder="Key units"></p>
+        <p><textarea name="notes" placeholder="Notes" rows="4" cols="40"></textarea></p>
+        <button type="submit">Save comp</button>
+    </form>
+
+    <h2>My comps</h2>
+    {% for comp in comps %}
+        <div>
+            <h3>{{ comp.name }}</h3>
+            <p><strong>Units:</strong> {{ comp.units }}</p>
+            <p>{{ comp.notes }}</p>
+        </div>
+    {% else %}
+        <p>No comps yet.</p>
+    {% endfor %}
+</body>
+</html>
