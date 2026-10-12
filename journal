@@ -39,3 +39,30 @@ Finalize tech stack, set up the dev environment, start scoping core features.
 - Get the app to a testable state and share with a few TFT players for early feedback (WK9)
 - Keep the journal and README updated as milestones hit, so progress stays visible for WK6 check-in and beyond
 
+## WK5 — First Working Prototype
+
+**Date: 10/12/2026** 
+
+### What I built
+- Set up my dev environment: Python virtual environment, Flask, Git, and VS Code
+- Connected the project to GitHub and got a first working page running locally
+- Built a simple comp-entry form (comp name, key units, rank, notes) that displays saved comps on the page
+- Added SQLite so comps are saved to a database and persist after restarting the server
+
+### Decisions
+- Started with a plain in-memory list first, then moved to SQLite, so I could confirm the form and display worked before adding a database
+- Added a "rank" field to the form on my own, since I want to be able to sort or filter comps by how well they perform
+
+### What went sideways
+- **Git and VS Code weren't recognized in the terminal.** Neither was installed or on my PATH yet, so I installed them and restarted my terminal.
+- **My first push to GitHub was rejected.** The remote repo already had my README and journal commits, so I had to pull and merge them before pushing.
+- **My database file showed up on GitHub.** I'd committed `comps.db` before creating a `.gitignore`, which only affects files Git isn't already tracking. I had to untrack the file with `git rm --cached`, then commit and push the removal. At first I skipped the commit step, which is why it was still on GitHub.
+
+### Reflection
+- What surprised me: How simple integrating SQLite was in getting a more permanent storage of the comp. 
+- Where I felt stuck, and what helped: I didn't want git tracking the comps.db so figuring out how to do that got me swamped but there were videos and guides on how to fix it that helped. 
+
+### Next up
+- Style the page so it's quick to scan mid-game
+- Decide what other fields a comp needs (positioning, playstyle, etc.)
+- Add the ability to edit and delete saved comps
