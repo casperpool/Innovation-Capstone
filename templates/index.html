@@ -8,8 +8,9 @@
 
     <h2>Add a comp</h2>
     <form method="POST">
-        <p><input type="text" name="name" placeholder="Comp name" required></p>
+        <p><input type="text" name="name" placeholder="Comp name" required></p> 
         <p><input type="text" name="units" placeholder="Key units"></p>
+        <p><input type="text" name="rank" placeholder="Rank"></p>
         <p><textarea name="notes" placeholder="Notes" rows="4" cols="40"></textarea></p>
         <button type="submit">Save comp</button>
     </form>
@@ -19,6 +20,7 @@
         <div>
             <h3>{{ comp.name }}</h3>
             <p><strong>Units:</strong> {{ comp.units }}</p>
+            <p><strong>Rank:</strong> {{ comp.rank }}</p>
             <p>{{ comp.notes }}</p>
         </div>
     {% else %}

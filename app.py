@@ -10,6 +10,7 @@ def home():
         comps.append({
             "name": request.form["name"],
             "units": request.form["units"],
+            "rank": request.form["rank"],
             "notes": request.form["notes"],
         })
         return redirect(url_for("home"))
